@@ -1,6 +1,9 @@
 install:
 	poetry install
 
+# package-remove:
+# 	poetry remove --group dev brain-games
+
 package-install:
 	python3 -m pip install --user dist/*.whl
 
