@@ -1,8 +1,8 @@
 install:
 	poetry install
 
-# package-remove:
-# 	poetry remove --group dev brain-games
+package-remove:
+	python3 -m pip uninstall hexlet_code
 
 package-install:
 	python3 -m pip install --user dist/*.whl
@@ -18,3 +18,6 @@ publish:
 
 install-games: # Для установки пакета из операционной системы используйте команду
 	python3 -m pip install --user dist/*.whl.
+
+lint:
+	poetry run flake8 brain_games
