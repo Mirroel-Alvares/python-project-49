@@ -3,3 +3,5 @@
 
 <a href="https://codeclimate.com/github/Mirroel-Alvares/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/d19f5a2642606c0c5eb6/maintainability" /></a>
 
+
+ https://asciinema.org/a/gMNrYkhQbYVvmb0524QbrX5Zf # Work of brain-even
