@@ -4,6 +4,9 @@ install:
 package-remove:
 	python3 -m pip uninstall hexlet_code
 
+build:
+	poetry build
+
 package-install:
 	python3 -m pip install --user dist/*.whl
 
@@ -13,8 +16,8 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
-build:
-	poetry build
+brain-calc:
+	poetry run brain-calc
 
 publish:
 	poetry publish  --dry-run

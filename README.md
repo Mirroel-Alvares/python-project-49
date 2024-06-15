@@ -5,3 +5,4 @@
 
 
  https://asciinema.org/a/gMNrYkhQbYVvmb0524QbrX5Zf # Work of brain-even
+ https://asciinema.org/a/iceBC9EnYdpEuzy5kZusJMDZW # Work of brain-calc
