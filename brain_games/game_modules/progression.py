@@ -21,5 +21,5 @@ def game():
     random_position = randint(0, len(progression) - 1)
     correct_answer = progression.pop(random_position)
     progression.insert(random_position, '..')
-    question = ('Question: ' + ' '.join(map(str, progression)))
+    question = (f'Question: {*progression, sep=" "}')
     return question, correct_answer
