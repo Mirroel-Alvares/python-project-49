@@ -7,3 +7,5 @@
  https://asciinema.org/a/gMNrYkhQbYVvmb0524QbrX5Zf # Work of brain-even
  https://asciinema.org/a/iceBC9EnYdpEuzy5kZusJMDZW # Work of brain-calc
  https://asciinema.org/a/UhFAINDvIM62T7glJ5oikip0z # Work of brain-gcd
+https://asciinema.org/a/rvQ3ym20xDABsrrPy421KRlZ9 # Work of brain-progression
+
