@@ -19,7 +19,6 @@ def game():
     num_two = randint(1, 100)
     question = (f'Question: {num_one} {num_two}')
     correct_answer = max(
-        set(integer_divisors(num_one)) &
-        set(integer_divisors(num_two))
+        set(integer_divisors(num_one)) & set(integer_divisors(num_two))
     )
     return question, correct_answer
