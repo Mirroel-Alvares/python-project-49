@@ -3,7 +3,7 @@
 from random import randint
 
 
-game_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):

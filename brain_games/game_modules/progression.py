@@ -3,7 +3,7 @@
 from random import randint
 
 
-game_task = 'What number is missing in the progression?'
+GAME_TASK = 'What number is missing in the progression?'
 
 
 def generate_progression():
@@ -21,5 +21,5 @@ def game():
     random_position = randint(0, len(progression) - 1)
     correct_answer = progression.pop(random_position)
     progression.insert(random_position, '..')
-    question = (f'Question: {*progression, sep=" "}')
+    question = " ". join([str(i) for i in progression])
     return question, correct_answer

@@ -12,7 +12,7 @@ def welcome_user():
 
 def run_game(game_modules):
     name = welcome_user()
-    print(game_modules.game_task)
+    print(game_modules.GAME_TASK)
     count = 0
     game_round = 3
     while count < game_round:

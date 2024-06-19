@@ -3,7 +3,7 @@
 from random import randint
 
 
-game_task = 'Find the greatest common divisor of given numbers.'
+GAME_TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def integer_divisors(num):
