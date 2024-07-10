@@ -6,7 +6,7 @@
 Project brain-games contains 5 mathematical games. Requirements: python = "^3.10", prompt = "^0.4.1" and random libraries
 All commands to build, install and play, you can find in Makefile.
 
-https://asciinema.org/a/c8LvytVRmr1WksCS1e1asYtnU # package install
+<a href="https://asciinema.org/a/0Zu8LMzQBBqnt0SyKCgbrpHdo" target="_blank"><img src="https://asciinema.org/a/0Zu8LMzQBBqnt0SyKCgbrpHdo.svg" /></a> # package install
 
 https://asciinema.org/a/gMNrYkhQbYVvmb0524QbrX5Zf # Work of brain-even
 
