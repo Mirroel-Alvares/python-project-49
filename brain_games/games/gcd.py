@@ -14,7 +14,7 @@ def integer_divisors(num):
     return divisors
 
 
-def game():
+def get_question_correct_answer():
     num_one = randint(1, 100)
     num_two = randint(1, 100)
     question = (f'Question: {num_one} {num_two}')

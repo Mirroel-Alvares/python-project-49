@@ -1,34 +1,23 @@
 #!/usr/bin/env python3
 
+from brain_games.cli import welcome_user
 import prompt
 
 
-def welcome_user():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
-
-
-def run_game(game_modules):
+def run_game(module):
     name = welcome_user()
-    print(game_modules.GAME_TASK)
-    count = 0
-    game_round = 3
-    while count < game_round:
-        question, correct_answer = game_modules.game()
+    print(module.GAME_TASK)
+    for round in range(3):
+        question, correct_answer = module.get_question_correct_answer()
         print(question)
         answer = prompt.string('Your answer: ')
-        if answer == str(correct_answer):
-            print('Correct!')
-            count += 1
-        else:
+        if answer != str(correct_answer):
             print(
                 f"'{answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
-            break
+            return
+        print('Correct!')
 
-    if count == 3:
-        print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')

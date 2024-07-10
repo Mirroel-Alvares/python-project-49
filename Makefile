@@ -36,3 +36,7 @@ install-games: # Для установки пакета из операцион�
 
 lint:
 	poetry run flake8 brain_games
+
+	asciinema play demo.cast
+
+	asciinema upload demo.cast

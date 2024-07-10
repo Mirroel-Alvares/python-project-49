@@ -15,7 +15,7 @@ def is_prime(num):
     return True
 
 
-def game():
+def get_question_correct_answer():
     num = randint(1, 99)
     question = (f'Question: {num}')
     if is_prime(num):

@@ -16,7 +16,7 @@ def generate_progression():
     return random_progression
 
 
-def game():
+def get_question_correct_answer():
     progression = generate_progression()
     random_position = randint(0, len(progression) - 1)
     correct_answer = progression.pop(random_position)

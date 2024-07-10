@@ -6,7 +6,7 @@ from random import randint
 GAME_TASK = 'What is the result of the expression?'
 
 
-def game():
+def get_question_correct_answer():
     first_num = randint(20, 40)
     second_num = randint(1, 20)
     expressions = (
