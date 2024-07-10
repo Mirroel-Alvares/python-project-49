@@ -8,15 +8,15 @@ All commands to build, install and play, you can find in Makefile.
 
 <a href="https://asciinema.org/a/0Zu8LMzQBBqnt0SyKCgbrpHdo" target="_blank"><img src="https://asciinema.org/a/0Zu8LMzQBBqnt0SyKCgbrpHdo.svg" /></a> # package install
 
-https://asciinema.org/a/gMNrYkhQbYVvmb0524QbrX5Zf # Work of brain-even
+<a href="https://asciinema.org/a/BhDMKSFFQcatJOrVys290XsuG" target="_blank"><img src="https://asciinema.org/a/BhDMKSFFQcatJOrVys290XsuG.svg" /></a> # Work of brain-even
 
-https://asciinema.org/a/iceBC9EnYdpEuzy5kZusJMDZW # Work of brain-calc
+<a href="https://asciinema.org/a/2BbZWhhA0j9ynC5FUbGwgSmUc" target="_blank"><img src="https://asciinema.org/a/2BbZWhhA0j9ynC5FUbGwgSmUc.svg" /></a> # Work of brain-calc
 
-https://asciinema.org/a/UhFAINDvIM62T7glJ5oikip0z # Work of brain-gcd
+<a href="https://asciinema.org/a/ZrlCIRGlvxpcBzYUkAtkFkZP2" target="_blank"><img src="https://asciinema.org/a/ZrlCIRGlvxpcBzYUkAtkFkZP2.svg" /></a> # Work of brain-gcd
 
-https://asciinema.org/a/rvQ3ym20xDABsrrPy421KRlZ9 # Work of brain-progression
+<a href="https://asciinema.org/a/iOG2yFGfgmfAalwAymNfiXJld" target="_blank"><img src="https://asciinema.org/a/iOG2yFGfgmfAalwAymNfiXJld.svg" /></a> # Work of brain-progression
 
-https://asciinema.org/a/cOlxYl6ut2mKpUuN6xsA6usT0 # Work of brain-prime
+<a href="https://asciinema.org/a/2ieUhAqpbDOAMXU0d5fLh7IRv" target="_blank"><img src="https://asciinema.org/a/2ieUhAqpbDOAMXU0d5fLh7IRv.svg" /></a> # Work of brain-prime
 
 
 
