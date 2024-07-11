@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from random import randint
 
 
@@ -15,7 +13,7 @@ def is_prime(num):
     return True
 
 
-def get_question_correct_answer():
+def get_question_and_answer():
     num = randint(1, 99)
     question = (f'Question: {num}')
     if is_prime(num):

@@ -8,7 +8,7 @@ def run_game(module):
     name = welcome_user()
     print(module.GAME_TASK)
     for round in range(3):
-        question, correct_answer = module.get_question_correct_answer()
+        question, correct_answer = module.get_question_and_answer()
         print(question)
         answer = prompt.string('Your answer: ')
         if answer != str(correct_answer):

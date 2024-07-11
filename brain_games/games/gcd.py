@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from random import randint
 
 
@@ -14,7 +12,7 @@ def integer_divisors(num):
     return divisors
 
 
-def get_question_correct_answer():
+def get_question_and_answer():
     num_one = randint(1, 100)
     num_two = randint(1, 100)
     question = (f'Question: {num_one} {num_two}')

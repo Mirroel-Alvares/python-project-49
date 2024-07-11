@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from random import randint
 
 
@@ -16,7 +14,7 @@ def generate_progression():
     return random_progression
 
 
-def get_question_correct_answer():
+def get_question_and_answer():
     progression = generate_progression()
     random_position = randint(0, len(progression) - 1)
     correct_answer = progression.pop(random_position)
