@@ -6,17 +6,18 @@ import prompt
 
 def run_game(module):
     name = welcome_user()
+    roundsCount = 3
     print(module.GAME_TASK)
-    for round in range(3):
-        question, correct_answer = module.get_question_and_answer()
-        print(question)
+    for round in range(roundsCount):
+        question_data, correct_answer = module.get_question_and_answer()
+        print(f'Question: {question_data}')
         answer = prompt.string('Your answer: ')
         if answer != str(correct_answer):
             print(
                 f"'{answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
+                f"Let's try again, {name}!"
             )
-            print(f"Let's try again, {name}!")
             return
         print('Correct!')
 
