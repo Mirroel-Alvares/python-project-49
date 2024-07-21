@@ -15,6 +15,6 @@ def get_greater_common_divisor(num1, num2):
 def get_question_and_answer():
     num_one = randint(1, 100)
     num_two = randint(1, 100)
-    question_data = f'{num_one}, {num_two}'
+    question_data = f'{num_one} {num_two}'
     correct_answer = get_greater_common_divisor(num_one, num_two)
     return question_data, correct_answer
