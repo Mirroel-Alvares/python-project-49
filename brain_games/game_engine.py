@@ -6,9 +6,9 @@ import prompt
 
 def run_game(module):
     name = welcome_user()
-    roundsCount = 3
+    rounds_сount = 3
     print(module.GAME_TASK)
-    for round in range(roundsCount):
+    for round in range(rounds_сount):
         question_data, correct_answer = module.get_question_and_answer()
         print(f'Question: {question_data}')
         answer = prompt.string('Your answer: ')

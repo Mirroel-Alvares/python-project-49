@@ -1,13 +1,26 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.11"
+version = "0.1.12"
 description = "Five logical games"
 authors = ["Aleksey_Kuznetsov <aleksejkuznecov07096@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Mirroel-Alvares/python-project-49/tree/main"
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'Environment :: Console',
+  'Intended Audience :: End Users/Desktop',
+  'Intended Audience :: Education',
+  'License :: Free For Educational Use',
+  'Natural Language :: English',
+  'Operating System :: Microsoft',
+  'Operating System :: Unix',
+  'Programming Language :: Python',
+  'Topic :: Games/Entertainment'
+]
+
 packages = [
   { include = "brain_games" },
 ]
-
 
 [tool.poetry.dependencies]
 python = "^3.10"
