@@ -11,6 +11,7 @@ def generate_progression():
     random_progression = list(range(start, stop, step))
     return random_progression
 
+
 def get_question_and_answer():
     progression = generate_progression()
     random_position = randrange(len(progression))
